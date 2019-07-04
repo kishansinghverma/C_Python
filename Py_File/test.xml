@@ -1,0 +1,5 @@
+<data>  
+	<device name="Fan">On</device>
+	<device name="Light">On</device>
+	<device name="Temp">23.5</device>
+</data>  
