@@ -10,7 +10,7 @@ typedef struct Tree{
 
 Node* root=NULL;
 
-void insert(int value){
+void insertKey(int value){
     Node *node = (Node *) malloc(sizeof(Node));
     node->value = value;
     node->lchild = NULL;
@@ -75,33 +75,57 @@ void postOrderTraverse(Node *temp){
     cout <<temp->value<<" ";
 }
 
+void deleteKey(int value){
+
+}
+
 int main(){
-    insert(8);
-    insert(4);
-    insert(12);
-    insert(2);
-    insert(6);
-    insert(10);
-    insert(14);
-    insert(1);
-    insert(3);
-    insert(5);
-    insert(7);
-    insert(9);
-    insert(11);
-    insert(13);
-    insert(15);
-    insert(20);
-    insert(18);
-    insert(19);
-    insert(21);
-    insert(8);
-    cout<<"PreOrder Traversal of tree:\n";
-    preOrderTraverse(root);
-    cout<<"\nInOrderTraversal of tree:\n";
-    inOrderTraverse(root);
-    cout<<"\nPostOrder Traversal of tree:\n";
-    postOrderTraverse(root);
+    bool flag= true;
+    int option;
+    while (flag){
+        cout<<"\nSelect operation:\n1. Insert Key\n2. Delete Key\n3. PreOrder Traversal\n4. InOrder Traversal\n";
+        cout<<"5. PostOrder Traversal\n6. Exit\n";
+        cout<<"Select option: ";
+        cin >> option;
+
+        switch (option){
+            case 1: {
+                int key;
+                cout <<"Enter Key to insert: ";
+                cin >> key;
+                insertKey(key);
+                break;
+            }
+            case 2: {
+                int key;
+                cout <<"Enter Key to remove: ";
+                cin>> key;
+                deleteKey(key);
+                break;
+            }
+            case 3:{
+                cout<<"PreOrder Traversal of tree:\n";
+                preOrderTraverse(root);
+                break;
+            }
+            case 4:{
+                cout<<"\nInOrderTraversal of tree:\n";
+                inOrderTraverse(root);
+                break;
+            }
+            case 5:{
+                cout<<"\nPostOrder Traversal of tree:\n";
+                postOrderTraverse(root);
+                break;
+            }
+            case 6: {
+                flag = false;
+                break;
+            }
+            default:
+                cout<<"Invalid Option! Try Again\n";
+        }
+    }
 }
 
 
