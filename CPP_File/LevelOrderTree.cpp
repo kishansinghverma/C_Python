@@ -13,11 +13,12 @@ int size=0;
 
 char* getPosition(){
     char *temp=(char*)malloc(sizeof(char)*32);
-    itoa(size, temp, 2);
+    itoa(size+1, temp, 2);
     int i=0;
-    while (temp[i+1] != '\0')
+    while (temp[i] != '\0'){
+        temp[i]=temp[i+1];
         i++;
-    temp[i]='\0';
+    }
     return temp;
 }
 
@@ -32,20 +33,21 @@ void insert(int value){
     else {
         node *temp = root;
         char *position = getPosition();
-        int i = 1;
-        while (position[i] != '\0') {
+        int i = 0;
+        while (position[i+1] != '\0') {
             if (position[i] == '1')
                 temp = temp->rchild;
             else
-                temp = temp->rchild;
+                temp = temp->lchild;
             i++;
         }
-        if (size % 2 == 1)
+        if (position[i]=='0')
             temp->lchild = inode;
         else
             temp->rchild = inode;
     }
     size++;
+    cout<<"Key("<<value<<") Inserted successfully!\n";
 }
 
 int main()
@@ -56,7 +58,8 @@ int main()
     insert(40);
     insert(50);
     insert(60);
-
-    cout<<root->key<<" "<<root->lchild->key<<" "<<root->rchild->key;
+    insert(70);
+    insert(90);
+    insert(100);
 }
 
