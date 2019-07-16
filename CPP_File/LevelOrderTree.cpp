@@ -1,4 +1,7 @@
 #include <iostream>
+#include <time.h>
+#include <cmath>
+
 using namespace std;
 
 typedef struct TREE
@@ -11,9 +14,9 @@ typedef struct TREE
 node *root=NULL;
 int size=0;
 
-char* getPosition(){
+char* getPosition(int n){
     char *temp=(char*)malloc(sizeof(char)*32);
-    itoa(size+1, temp, 2);
+    itoa(n+1, temp, 2);
     int i=0;
     while (temp[i] != '\0'){
         temp[i]=temp[i+1];
@@ -21,6 +24,33 @@ char* getPosition(){
     }
     return temp;
 }
+
+/////////////////////////////////////////////////////
+int height(int n){
+    int h=ceil(log(n)/log(2));
+    if(h>0)
+        return h;
+    else
+        return 0;
+}
+
+void printGivenLevel(node* root, int level){
+    if(root==NULL)
+        return;
+    else if(level==1)
+        cout<<root->key<<" ";
+    else{
+        printGivenLevel(root->lchild, level-1);
+        printGivenLevel(root->rchild, level-1);
+    }
+}
+void printLevelOrder(node* root){
+    int h = height(size);
+    for (int i = 1; i <= h; i++)
+        printGivenLevel(root, i);
+}
+
+/////////////////////////////////////////////////////
 
 void insert(int value){
     node *inode=(node*)malloc(sizeof(node));
@@ -32,7 +62,7 @@ void insert(int value){
 
     else {
         node *temp = root;
-        char *position = getPosition();
+        char *position = getPosition(size);
         int i = 0;
         while (position[i+1] != '\0') {
             if (position[i] == '1')
@@ -52,14 +82,12 @@ void insert(int value){
 
 int main()
 {
-    insert(10);
-    insert(20);
-    insert(30);
-    insert(40);
-    insert(50);
-    insert(60);
-    insert(70);
-    insert(90);
-    insert(100);
+    for(int i=0; i<100; i++){
+        insert(i);
+    }
+
+    printLevelOrder(root);
 }
+
+
 
