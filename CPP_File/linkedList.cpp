@@ -7,7 +7,8 @@ typedef struct node
 	struct node *next;
 }NODE;
 
-NODE *head=0;
+NODE *head=NULL;
+NODE *last=NULL;
 
 int counter(NODE *ptr)
 {
@@ -25,8 +26,14 @@ void headInsert()
 	NODE *ptr=(NODE*)malloc(sizeof(NODE));
 	printf("Insert Element: ");
 	scanf("%d", &ptr->info);
-	ptr->next=head;
-	head=ptr;
+	if(head==NULL){
+        ptr->next=head;
+        head=ptr;
+        last=head;
+	} else{
+        ptr->next=head;
+        head=ptr;
+	}
 }
 void lastInsert()
 {
@@ -35,28 +42,21 @@ void lastInsert()
 	printf("Insert Element: ");
 	scanf("%d", &ptr->info);
 	ptr->next=NULL;
-	if(head==NULL)
-	{
+
+	if(head==NULL){
 		head=ptr;
-	}
-	else
-	{
-		index=head;
-		while(index->next != NULL)
-		{
-			index=index->next;
-		}
-		index->next =ptr;	
+		last=head;
+	} else{
+	    last->next=ptr;
+		last=ptr;
 	}
 }
-int search(int a)
-{
+int search(int a){
+
 	NODE *ptr=head;
 	int flag=0, count=0;
-	if(head != NULL)
-	{
-		while(ptr != NULL)
-		{
+	if(head != NULL){
+		while(ptr != NULL){
 			count++;
 			if(ptr->info==a)
 			{
@@ -81,7 +81,7 @@ void pos_insert(int loc, int ele)
 	int count;
 	NODE *ptr=(NODE*)malloc(sizeof(NODE));
 	NODE *index;
-	ptr->info=ele;
+	 ptr->info=ele;
 	
 	if(loc>0)
 	{

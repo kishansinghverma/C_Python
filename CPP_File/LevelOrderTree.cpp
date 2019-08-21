@@ -25,7 +25,6 @@ char* getPosition(int n){
     return temp;
 }
 
-/////////////////////////////////////////////////////
 int height(int n){
     int h=ceil(log(n)/log(2));
     if(h>0)
@@ -50,7 +49,6 @@ void printLevelOrder(node* root){
         printGivenLevel(root, i);
 }
 
-/////////////////////////////////////////////////////
 
 void insert(int value){
     node *inode=(node*)malloc(sizeof(node));

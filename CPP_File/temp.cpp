@@ -9,8 +9,9 @@ void output(float val){
 }
 int main()
 {
-    output((float)20.2);
-    output(20);
+    //output((float)20.2);
+    //output(20);
+    cout<<pow(2,23);
 }
 
 
