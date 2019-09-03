@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Factorial</title>
+    <script>
+        function calc() {
+            var x=parseInt(document.getElementById("in").value);
+            if(isNaN(x)){
+                window.alert("Input a number!");
+                return false;
+            }
+            res=1;
+            for (var i=1; i<=x; i++){
+                res *= i;
+            }
+            window.alert("Factorial of given number is: "+res);
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <br><br><br><br><br><br><br><br>
+        Input Number:<br><br>
+        <input type="text" id="in"><br><br>
+        <input type="submit" onclick="calc()" value="Calculate"><br>
+    </center>
+
+</body>
+</html>
