@@ -1,3 +1,5 @@
+import math
+
 s2="AGGTAB"
 s1="GXTXAYB"
 

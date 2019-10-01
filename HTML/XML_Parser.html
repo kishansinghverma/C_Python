@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var xhttp=new XMLHttpRequest();
+        xhttp.onreadystatechange=function () {
+            if(this.readyState==4 && this.status==200){
+                loadXML(this);
+            }
+        }
+        xhttp.open("GET", "XMLParse_Demo.xml", true);
+        xhttp.send();
+
+        function loadXML(xml) {
+            var xmlDoc=xml.responseXML;
+            var node=xmlDoc.getElementsByTagName("book");
+            var data=""
+            data += "<table border='1'>"
+            for (var i=0; i<node.length; i++){
+                data += "<tr><td>"
+                data += node[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+                data += "</td><td>";
+                data += node[i].getElementsByTagName("author")[0].childNodes[0].nodeValue;
+                data += "</td><td>";
+                data += node[i].getElementsByTagName("subject")[0].childNodes[0].nodeValue;
+                data += "</td></tr>";
+            }
+            data += "</table>"
+            document.getElementById("try").innerHTML=data;
+        }
+    </script>
+</head>
+<body>
+    <div id="try"></div>
+</body>
+</html>

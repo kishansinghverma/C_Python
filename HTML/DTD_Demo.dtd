@@ -1,0 +1,6 @@
+library[
+<!ELEMENT library (book+)>
+<!ELEMENT book (name, author, subject)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT subject (#PCDATA)> ]
