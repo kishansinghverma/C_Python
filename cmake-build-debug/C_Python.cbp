@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="C_Python"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="binarySearch">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/binarySearch.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 binarySearch"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="binarySearch/fast">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/binarySearch.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 binarySearch/fast"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RunTime_Calc">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/RunTime_Calc.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 RunTime_Calc"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RunTime_Calc/fast">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/RunTime_Calc.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 RunTime_Calc/fast"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tree_Demo">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Tree_Demo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tree_Demo"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tree_Demo/fast">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Tree_Demo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tree_Demo/fast"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrayDemo">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/arrayDemo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 arrayDemo"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrayDemo/fast">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/arrayDemo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 arrayDemo/fast"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2dArrayDemo">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/2dArrayDemo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 2dArrayDemo"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2dArrayDemo/fast">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/2dArrayDemo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 2dArrayDemo/fast"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrayAvg">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/arrayAvg.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 arrayAvg"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrayAvg/fast">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/arrayAvg.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 arrayAvg/fast"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Collision_Calc">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Collision_Calc.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 Collision_Calc"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Collision_Calc/fast">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Collision_Calc.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 Collision_Calc/fast"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="User_LexString">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/User_LexString.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 User_LexString"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="User_LexString/fast">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/User_LexString.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 User_LexString/fast"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StringQuery">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/StringQuery.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 StringQuery"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StringQuery/fast">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/StringQuery.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 StringQuery/fast"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Iceland_Range">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Iceland_Range.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 Iceland_Range"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Iceland_Range/fast">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Iceland_Range.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 Iceland_Range/fast"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="linkedList">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/linkedList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 linkedList"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="linkedList/fast">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/linkedList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 linkedList/fast"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LevelOrderTree">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/LevelOrderTree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 LevelOrderTree"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LevelOrderTree/fast">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/LevelOrderTree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 LevelOrderTree/fast"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NumberConversion">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/NumberConversion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 NumberConversion"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NumberConversion/fast">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/NumberConversion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 NumberConversion/fast"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primeNumber">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/primeNumber.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 primeNumber"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primeNumber/fast">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/primeNumber.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 primeNumber/fast"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RadixSort">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/RadixSort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 RadixSort"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RadixSort/fast">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/RadixSort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 RadixSort/fast"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="temp">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/temp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 temp"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="temp/fast">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/temp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 temp/fast"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CArena">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/CArena.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 CArena"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CArena/fast">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/CArena.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 CArena/fast"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CountingInversion">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/CountingInversion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 CountingInversion"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CountingInversion/fast">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/CountingInversion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 CountingInversion/fast"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Solution_Adj_Squre">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Solution_Adj_Squre.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 Solution_Adj_Squre"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Solution_Adj_Squre/fast">
+				<Option output="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Solution_Adj_Squre.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c://MingW/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 Solution_Adj_Squre/fast"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MingW/bin/mingw32-make.exe -f &quot;C:/Users/Kishan Verma/CLionProjects/C+Python/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Kishan Verma/CLionProjects/C+Python/CPP_File/2dArrayDemo.cpp">
+			<Option target="2dArrayDemo"/>
+		</Unit>
+		<Unit filename="C:/Users/Kishan Verma/CLionProjects/C+Python/CPP_File/BinaryTree.cpp">
+			<Option target="Tree_Demo"/>
+		</Unit>
+		<Unit filename="C:/Users/Kishan Verma/CLionProjects/C+Python/CPP_File/CArena.cpp">
+			<Option target="CArena"/>
+		</Unit>
+		<Unit filename="C:/Users/Kishan Verma/CLionProjects/C+Python/CPP_File/Collision_Calc.cpp">
+			<Option target="Collision_Calc"/>
+		</Unit>
+		<Unit filename="C:/Users/Kishan Verma/CLionProjects/C+Python/CPP_File/CountingInversion.cpp">
+			<Option target="CountingInversion"/>
+		</Unit>
+		<Unit filename="C:/Users/Kishan Verma/CLionProjects/C+Python/CPP_File/Iceland_Range.cpp">
+			<Option target="Iceland_Range"/>
+		</Unit>
+		<Unit filename="C:/Users/Kishan Verma/CLionProjects/C+Python/CPP_File/LevelOrderTree.cpp">
+			<Option target="LevelOrderTree"/>
+		</Unit>
+		<Unit filename="C:/Users/Kishan Verma/CLionProjects/C+Python/CPP_File/NumberConversion.cpp">
+			<Option target="NumberConversion"/>
+		</Unit>
+		<Unit filename="C:/Users/Kishan Verma/CLionProjects/C+Python/CPP_File/RadixSort.cpp">
+			<Option target="RadixSort"/>
+		</Unit>
+		<Unit filename="C:/Users/Kishan Verma/CLionProjects/C+Python/CPP_File/RunTime_Calc.cpp">
+			<Option target="RunTime_Calc"/>
+		</Unit>
+		<Unit filename="C:/Users/Kishan Verma/CLionProjects/C+Python/CPP_File/Solution_Adj_Squre.cpp">
+			<Option target="Solution_Adj_Squre"/>
+		</Unit>
+		<Unit filename="C:/Users/Kishan Verma/CLionProjects/C+Python/CPP_File/StringQuery.cpp">
+			<Option target="StringQuery"/>
+		</Unit>
+		<Unit filename="C:/Users/Kishan Verma/CLionProjects/C+Python/CPP_File/User_LexString.cpp">
+			<Option target="User_LexString"/>
+		</Unit>
+		<Unit filename="C:/Users/Kishan Verma/CLionProjects/C+Python/CPP_File/arrayAvg.cpp">
+			<Option target="arrayAvg"/>
+		</Unit>
+		<Unit filename="C:/Users/Kishan Verma/CLionProjects/C+Python/CPP_File/arrayDemo.cpp">
+			<Option target="arrayDemo"/>
+		</Unit>
+		<Unit filename="C:/Users/Kishan Verma/CLionProjects/C+Python/CPP_File/binarySearch.cpp">
+			<Option target="binarySearch"/>
+		</Unit>
+		<Unit filename="C:/Users/Kishan Verma/CLionProjects/C+Python/CPP_File/linkedList.cpp">
+			<Option target="linkedList"/>
+		</Unit>
+		<Unit filename="C:/Users/Kishan Verma/CLionProjects/C+Python/CPP_File/primeNumber.cpp">
+			<Option target="primeNumber"/>
+		</Unit>
+		<Unit filename="C:/Users/Kishan Verma/CLionProjects/C+Python/CPP_File/temp.cpp">
+			<Option target="temp"/>
+		</Unit>
+		<Unit filename="C:/Users/Kishan Verma/CLionProjects/C+Python/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

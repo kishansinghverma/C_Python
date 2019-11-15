@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="C_Python" targetName="Iceland_Range" />
+      <config projectName="C_Python" targetName="RadixSort" />
+      <config projectName="C_Python" targetName="Tree_Demo" />
+      <config projectName="C_Python" targetName="arrayDemo" />
+      <config projectName="C_Python" targetName="CountingInversion" />
+      <config projectName="C_Python" targetName="LevelOrderTree" />
+      <config projectName="C_Python" targetName="Solution_Adj_Squre" />
+      <config projectName="C_Python" targetName="User_LexString" />
+      <config projectName="C_Python" targetName="primeNumber" />
+      <config projectName="C_Python" targetName="Collision_Calc" />
+      <config projectName="C_Python" targetName="StringQuery" />
+      <config projectName="C_Python" targetName="CArena" />
+      <config projectName="C_Python" targetName="NumberConversion" />
+      <config projectName="C_Python" targetName="binarySearch" />
+      <config projectName="C_Python" targetName="arrayAvg" />
+      <config projectName="C_Python" targetName="2dArrayDemo" />
+      <config projectName="C_Python" targetName="linkedList" />
+      <config projectName="C_Python" targetName="RunTime_Calc" />
+      <config projectName="C_Python" targetName="temp" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f881db76-a479-4ed8-b051-a851bce67f48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Py_File/MQTT_Pub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Py_File/MQTT_Sub.py" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Py_File/Second_Highest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CPP_File/Solution_Adj_Squre.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+              <folding>
+                <element signature="e#49#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Py_File/MQTT_Sub.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Py_File/MQTT_Pub.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XHTML File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>h3</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>b</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CPP_File/LevelOrderTree.cpp" />
+        <option value="$PROJECT_DIR$/Py_File/Special_Multiple.py" />
+        <option value="$PROJECT_DIR$/Py_File/Digital_Sequence.py" />
+        <option value="$PROJECT_DIR$/CPP_File/linkedList.cpp" />
+        <option value="$PROJECT_DIR$/Py_File/XSquare.py" />
+        <option value="$PROJECT_DIR$/CPP_File/CArena.cpp" />
+        <option value="$PROJECT_DIR$/HTML/Resume.html" />
+        <option value="$PROJECT_DIR$/Py_File/Decendents.py" />
+        <option value="$PROJECT_DIR$/HTML/table.html" />
+        <option value="$PROJECT_DIR$/HTML/Table_CSS.html" />
+        <option value="$PROJECT_DIR$/HTML/FormDemo.html" />
+        <option value="$PROJECT_DIR$/HTML/PopUp.html" />
+        <option value="$PROJECT_DIR$/HTML/Sorted_Number.html" />
+        <option value="$PROJECT_DIR$/HTML/Factorial.html" />
+        <option value="$PROJECT_DIR$/HTML/FormData.html" />
+        <option value="$PROJECT_DIR$/Py_File/ValidString.py" />
+        <option value="$PROJECT_DIR$/CPP_File/temp.cpp" />
+        <option value="$PROJECT_DIR$/HTML/General_Tags.html" />
+        <option value="$PROJECT_DIR$/HTML/GetVSPost.html" />
+        <option value="$PROJECT_DIR$/Py_File/BIT_Sum.py" />
+        <option value="$PROJECT_DIR$/CPP_File/CountingInversion.cpp" />
+        <option value="$PROJECT_DIR$/Py_File/SubNumbers.py" />
+        <option value="$PROJECT_DIR$/HTML/GetData.html" />
+        <option value="$PROJECT_DIR$/Py_File/SubStrinngs.py" />
+        <option value="$PROJECT_DIR$/Py_File/Special_Palindrome.py" />
+        <option value="$PROJECT_DIR$/Py_File/LCS.py" />
+        <option value="$PROJECT_DIR$/HTML/JQuery_Demo.html" />
+        <option value="$PROJECT_DIR$/HTML/demo_test.txt" />
+        <option value="$PROJECT_DIR$/patter.py" />
+        <option value="$PROJECT_DIR$/HTML/Andro_Form.html" />
+        <option value="$PROJECT_DIR$/HTML/XSLT_Demo.html" />
+        <option value="$PROJECT_DIR$/HTML/XML_Schema.html" />
+        <option value="$PROJECT_DIR$/HTML/Validate.xsd" />
+        <option value="$PROJECT_DIR$/HTML/demo.xml" />
+        <option value="$PROJECT_DIR$/HTML/Stylesheet_Demo" />
+        <option value="$PROJECT_DIR$/HTML/Schema_Demo.xml" />
+        <option value="$PROJECT_DIR$/HTML/DTD_InDemo.xml" />
+        <option value="$PROJECT_DIR$/HTML/DTD_Demo.xml.xhtml" />
+        <option value="$PROJECT_DIR$/HTML/DTD_Demo.xml" />
+        <option value="$PROJECT_DIR$/HTML/DTD_ExDemo.xml" />
+        <option value="$PROJECT_DIR$/HTML/XMLParse_Demo.xml" />
+        <option value="$PROJECT_DIR$/HTML/XML_Parser.html" />
+        <option value="$PROJECT_DIR$/HTML/XSLT_Demo.xsl" />
+        <option value="$PROJECT_DIR$/Py_File/Second_Highest.py" />
+        <option value="$PROJECT_DIR$/HTML/DataProvider.html" />
+        <option value="$PROJECT_DIR$/HTML/NamePridictor.html" />
+        <option value="$PROJECT_DIR$/CPP_File/Solution_Adj_Squre.cpp" />
+        <option value="$PROJECT_DIR$/Py_File/Topic Modeling.py" />
+        <option value="$PROJECT_DIR$/Py_File/MQTT_Tester.py" />
+        <option value="$PROJECT_DIR$/Py_File/MQTT_Sub.py" />
+        <option value="$PROJECT_DIR$/Py_File/MQTT_Pub.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="783" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="C_Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C+Python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C_Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C+Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Py_File" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="cassandra" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="MANAGE_IGNORE_FILES_PROPERTY" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Py_File" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kishan Verma\CLionProjects\C+Python" />
+      <recent name="C:\Users\Kishan Verma\CLionProjects\C+Python\CPP_File" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kishan Verma\CLionProjects\C+Python\Py_File" />
+      <recent name="C:\Users\Kishan Verma\CLionProjects\C+Python\HTML" />
+      <recent name="C:\Users\Kishan Verma\CLionProjects\C+Python\CPP_File" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.MQTT_Pub">
+    <configuration name="2dArrayDemo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Python" TARGET_NAME="2dArrayDemo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Python" RUN_TARGET_NAME="2dArrayDemo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CArena" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Python" TARGET_NAME="CArena" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Python" RUN_TARGET_NAME="CArena">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Collision_Calc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Python" TARGET_NAME="Collision_Calc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Python" RUN_TARGET_NAME="Collision_Calc">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountingInversion" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Python" TARGET_NAME="CountingInversion" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Python" RUN_TARGET_NAME="CountingInversion">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Iceland_Range" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Python" TARGET_NAME="Iceland_Range" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Python" RUN_TARGET_NAME="Iceland_Range">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LevelOrderTree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Python" TARGET_NAME="LevelOrderTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Python" RUN_TARGET_NAME="LevelOrderTree">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberConversion" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Python" TARGET_NAME="NumberConversion" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Python" RUN_TARGET_NAME="NumberConversion">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadixSort" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Python" TARGET_NAME="RadixSort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Python" RUN_TARGET_NAME="RadixSort">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunTime_Calc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Python" TARGET_NAME="RunTime_Calc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Python" RUN_TARGET_NAME="RunTime_Calc">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution_Adj_Squre" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Python" TARGET_NAME="Solution_Adj_Squre" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Python" RUN_TARGET_NAME="Solution_Adj_Squre">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringQuery" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Python" TARGET_NAME="StringQuery" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Python" RUN_TARGET_NAME="StringQuery">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tree_Demo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Python" TARGET_NAME="Tree_Demo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Python" RUN_TARGET_NAME="Tree_Demo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User_LexString" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Python" TARGET_NAME="User_LexString" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Python" RUN_TARGET_NAME="User_LexString">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arrayAvg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Python" TARGET_NAME="arrayAvg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Python" RUN_TARGET_NAME="arrayAvg">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arrayDemo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Python" TARGET_NAME="arrayDemo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Python" RUN_TARGET_NAME="arrayDemo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="binarySearch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Python" TARGET_NAME="binarySearch" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Python" RUN_TARGET_NAME="binarySearch">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="linkedList" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Python" TARGET_NAME="linkedList" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Python" RUN_TARGET_NAME="linkedList">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="primeNumber" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Python" TARGET_NAME="primeNumber" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Python" RUN_TARGET_NAME="primeNumber">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="temp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Python" TARGET_NAME="temp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Python" RUN_TARGET_NAME="temp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MQTT_Pub" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="C+Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Py_File" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Py_File/MQTT_Pub.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MQTT_Sub" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="C+Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Py_File" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Py_File/MQTT_Sub.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MQTT_Tester" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="C+Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Py_File" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Kishan Verma\CLionProjects\C+Python\Py_File\MQTT_Sub.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Second_Highest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="C+Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Py_File" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Py_File/Second_Highest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Topic Modeling" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="C+Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Py_File" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Py_File/Topic Modeling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.2dArrayDemo" />
+      <item itemvalue="CMake Application.CArena" />
+      <item itemvalue="CMake Application.Collision_Calc" />
+      <item itemvalue="CMake Application.CountingInversion" />
+      <item itemvalue="CMake Application.Iceland_Range" />
+      <item itemvalue="CMake Application.LevelOrderTree" />
+      <item itemvalue="CMake Application.NumberConversion" />
+      <item itemvalue="CMake Application.RadixSort" />
+      <item itemvalue="CMake Application.RunTime_Calc" />
+      <item itemvalue="CMake Application.Solution_Adj_Squre" />
+      <item itemvalue="CMake Application.StringQuery" />
+      <item itemvalue="CMake Application.Tree_Demo" />
+      <item itemvalue="CMake Application.User_LexString" />
+      <item itemvalue="CMake Application.arrayAvg" />
+      <item itemvalue="CMake Application.arrayDemo" />
+      <item itemvalue="CMake Application.binarySearch" />
+      <item itemvalue="CMake Application.linkedList" />
+      <item itemvalue="CMake Application.primeNumber" />
+      <item itemvalue="CMake Application.temp" />
+      <item itemvalue="Python.Second_Highest" />
+      <item itemvalue="Python.Topic Modeling" />
+      <item itemvalue="Python.MQTT_Tester" />
+      <item itemvalue="Python.MQTT_Pub" />
+      <item itemvalue="Python.MQTT_Sub" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.MQTT_Pub" />
+        <item itemvalue="Python.MQTT_Sub" />
+        <item itemvalue="Python.MQTT_Tester" />
+        <item itemvalue="Python.Topic Modeling" />
+        <item itemvalue="Python.Second_Highest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f881db76-a479-4ed8-b051-a851bce67f48" name="Default Changelist" comment="" />
+      <created>1562260162835</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562260162835</updated>
+      <workItem from="1562260165408" duration="1229000" />
+      <workItem from="1562271494120" duration="703000" />
+      <workItem from="1562272292385" duration="5156000" />
+      <workItem from="1562358745624" duration="3291000" />
+      <workItem from="1562833780234" duration="7296000" />
+      <workItem from="1562929419923" duration="9442000" />
+      <workItem from="1562989078601" duration="21359000" />
+      <workItem from="1563125056729" duration="5456000" />
+      <workItem from="1563133361333" duration="18453000" />
+      <workItem from="1563294445765" duration="8649000" />
+      <workItem from="1563480151548" duration="5399000" />
+      <workItem from="1564754932434" duration="2778000" />
+      <workItem from="1565439187029" duration="4269000" />
+      <workItem from="1566291756508" duration="159000" />
+      <workItem from="1566324808145" duration="7165000" />
+      <workItem from="1566365138588" duration="5157000" />
+      <workItem from="1566588020952" duration="2743000" />
+      <workItem from="1566746975800" duration="37000" />
+      <workItem from="1567402796550" duration="3006000" />
+      <workItem from="1567433894404" duration="213000" />
+      <workItem from="1567448773998" duration="29566000" />
+      <workItem from="1567586675498" duration="1500000" />
+      <workItem from="1567622499425" duration="2004000" />
+      <workItem from="1567672838855" duration="3001000" />
+      <workItem from="1568103697919" duration="14978000" />
+      <workItem from="1568228712531" duration="1367000" />
+      <workItem from="1568657997925" duration="31000" />
+      <workItem from="1568658144094" duration="9159000" />
+      <workItem from="1568778530079" duration="2367000" />
+      <workItem from="1568825998735" duration="694000" />
+      <workItem from="1568974954790" duration="8268000" />
+      <workItem from="1569185796984" duration="16466000" />
+      <workItem from="1569573040225" duration="4580000" />
+      <workItem from="1569730070420" duration="601000" />
+      <workItem from="1569900769108" duration="8939000" />
+      <workItem from="1569995009325" duration="1155000" />
+      <workItem from="1570184758207" duration="54000" />
+      <workItem from="1570426351467" duration="6284000" />
+      <workItem from="1570527626323" duration="629000" />
+      <workItem from="1570728382028" duration="3282000" />
+      <workItem from="1571025534877" duration="1137000" />
+      <workItem from="1571026764054" duration="1691000" />
+      <workItem from="1572660037507" duration="39000" />
+      <workItem from="1573577922331" duration="3648000" />
+      <workItem from="1573584092659" duration="1618000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1562261198641</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562261198641</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <created>1562261262276</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562261262276</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init">
+      <created>1562272632969</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562272632973</updated>
+    </task>
+    <task id="LOCAL-00004" summary="init">
+      <created>1562272859551</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1562272859551</updated>
+    </task>
+    <task id="LOCAL-00005" summary="init">
+      <created>1562856393599</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1562856393599</updated>
+    </task>
+    <task id="LOCAL-00006" summary="init">
+      <created>1563137748771</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563137748771</updated>
+    </task>
+    <task id="LOCAL-00007" summary="init">
+      <created>1563139522079</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563139522080</updated>
+    </task>
+    <task id="LOCAL-00008" summary="init">
+      <created>1563175110535</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1563175110535</updated>
+    </task>
+    <task id="LOCAL-00009" summary="init">
+      <created>1563219971553</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1563219971553</updated>
+    </task>
+    <task id="LOCAL-00010" summary="init">
+      <created>1563305680042</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1563305680042</updated>
+    </task>
+    <task id="LOCAL-00011" summary="init">
+      <created>1566363249871</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1566363249871</updated>
+    </task>
+    <task id="LOCAL-00012" summary="init">
+      <created>1567453843189</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1567453843189</updated>
+    </task>
+    <task id="LOCAL-00013" summary="init">
+      <created>1567504894505</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1567504894505</updated>
+    </task>
+    <task id="LOCAL-00014" summary="&#10;direct">
+      <created>1567545035729</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1567545035729</updated>
+    </task>
+    <task id="LOCAL-00015" summary="&#10;direct">
+      <created>1568775948494</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1568775948494</updated>
+    </task>
+    <task id="LOCAL-00016" summary="&#10;direct">
+      <created>1569344363879</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1569344363880</updated>
+    </task>
+    <task id="LOCAL-00017" summary="&#10;direct">
+      <created>1569943806568</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1569943806569</updated>
+    </task>
+    <task id="LOCAL-00018" summary="&#10;direct">
+      <created>1570477874752</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1570477874753</updated>
+    </task>
+    <task id="LOCAL-00019" summary="direct">
+      <created>1571031846864</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1571031846865</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="235018000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="0" width="783" height="735" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.43706778" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32840723" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3294893" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50075644" side_tool="true" weight="0.3261944" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3261944" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3294893" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49924356" weight="0.32608697" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="CMake" order="10" weight="0.32784185" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" weight="0.18133536" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.4107413" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32840723" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3294893" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Messages" order="4" visible="true" weight="0.3261944" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3294893" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3261944" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="CMake" order="10" weight="0.32784185" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" weight="0.18133536" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/CPP_File" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="init" />
+    <MESSAGE value="&#10;direct" />
+    <MESSAGE value="direct" />
+    <option name="LAST_COMMIT_MESSAGE" value="direct" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CPP_File/CArena.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Py_File/Decendents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CPP_File/binarySearch.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/Resume.html" />
+    <entry file="file://$PROJECT_DIR$/HTML/Table.html" />
+    <entry file="file://$PROJECT_DIR$/CPP_File/BinaryTree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="82" column="20" lean-forward="true" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/FormDemo.html" />
+    <entry file="file://$PROJECT_DIR$/HTML/Factorial.html" />
+    <entry file="file://$PROJECT_DIR$/HTML/PopUp.html" />
+    <entry file="file://$PROJECT_DIR$/CPP_File/MergeSort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/FormData.html" />
+    <entry file="file://$PROJECT_DIR$/Py_File/ValidString.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CPP_File/temp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/Sorted_Number.html" />
+    <entry file="file://$PROJECT_DIR$/CPP_File/CountingInversion.h" />
+    <entry file="file://$PROJECT_DIR$/HTML/General_Tags.html" />
+    <entry file="file://$PROJECT_DIR$/CPP_File/CountingInversion.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Py_File/BIT_Sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/GetVSPost.html" />
+    <entry file="file://$PROJECT_DIR$/Py_File/XSquare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Py_File/SubNumbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Py_File/SubStrinngs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Py_File/Special_Palindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Py_File/LCS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/demo_test.txt" />
+    <entry file="file://$PROJECT_DIR$/patter.py" />
+    <entry file="file://$PROJECT_DIR$/HTML/demo.xsd" />
+    <entry file="file://$PROJECT_DIR$/HTML/XML_Schema.html" />
+    <entry file="file://$PROJECT_DIR$/HTML/Andro_Form.html" />
+    <entry file="file://$PROJECT_DIR$/HTML/JQuery_Demo.html" />
+    <entry file="file://$PROJECT_DIR$/HTML/Table_CSS.html" />
+    <entry file="file://$PROJECT_DIR$/HTML/Stylesheet_Demo.xml" />
+    <entry file="file://$PROJECT_DIR$/HTML/XSLT_Demo.xsl" />
+    <entry file="file://$PROJECT_DIR$/HTML/Validate.xsd" />
+    <entry file="file://$PROJECT_DIR$/HTML/Schema_Demo.xml" />
+    <entry file="file://$PROJECT_DIR$/HTML/DTD_Demo.dtd" />
+    <entry file="file://$PROJECT_DIR$/HTML/GetData.html" />
+    <entry file="file://$PROJECT_DIR$/HTML/XMLParse_Demo.xml" />
+    <entry file="file://$PROJECT_DIR$/HTML/XML_Parser.html" />
+    <entry file="file://$PROJECT_DIR$/HTML/DataProvider.html" />
+    <entry file="file://$PROJECT_DIR$/HTML/DTD_ExDemo.xml" />
+    <entry file="file://$PROJECT_DIR$/HTML/DTD_InDemo.xml" />
+    <entry file="file://$PROJECT_DIR$/HTML/NamePridictor.html" />
+    <entry file="file://$PROJECT_DIR$/Py_File/abcnews-date-text.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-460155" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Py_File/Topic Modeling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Py_File/MQTT_Demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-422">
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Py_File/MQTT_Publisher.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Py_File/Second_Highest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CPP_File/Solution_Adj_Squre.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding>
+            <element signature="e#49#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Py_File/MQTT_Sub.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Py_File/MQTT_Pub.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
