@@ -21,22 +21,6 @@ def getGraph(edges):
 
     return graph,  mapper
 
-def getMappedSearch(bfs, mapper):
-    print("\nBFS Of Given Graph Is:\n(", end="")
-    for x in bfs[:-1]:
-        print(mapper[x], end=", ")
-    print(str(mapper[bfs[-1]])+")")
-
-
-def getMappedGraph(graph, mapper):
-    print("\nAdj. List View Of Given Graph Is:")
-    for i, x in enumerate(graph):
-        if(len(x)>0):
-            print(mapper[i], "->", end=" (")
-            for y in x[:-1]:
-                print(mapper[y], end=", ")
-            print(str(mapper[x[-1]])+")")
-
 def doBFS(graph, start):
     bfs=[]
     visited=[False]*len(graph)
@@ -55,6 +39,21 @@ def doBFS(graph, start):
                 bfs.append(x)
         visited[n]=True
     return bfs
+
+def getMappedSearch(bfs, mapper):
+    print("\nBFS Of Given Graph Is:\n(", end="")
+    for x in bfs[:-1]:
+        print(mapper[x], end=", ")
+    print(str(mapper[bfs[-1]])+")")
+
+def getMappedGraph(graph, mapper):
+    print("\nAdj. List View Of Given Graph Is:")
+    for i, x in enumerate(graph):
+        if(len(x)>0):
+            print(mapper[i], "->", end=" (")
+            for y in x[:-1]:
+                print(mapper[y], end=", ")
+            print(str(mapper[x[-1]])+")")
 
 edges=[[1,0],[1,3],[3,1],[0,3],[1,2],[0,4],[6,2],[5,6],[7,6],[6,4]]
 graph, mapper = getGraph(edges)

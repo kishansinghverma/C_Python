@@ -33,14 +33,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f881db76-a479-4ed8-b051-a851bce67f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Py_File/ConnectedComponents.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Py_File/Graph_AdjList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Py_File/Graph_Edgedetection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Py_File/PhoneCalling_Demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Py_File/Queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Py_File/Socket_Client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Py_File/Socket_Server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Py_File/ConnectedComponents.py" beforeDir="false" afterPath="$PROJECT_DIR$/Py_File/ConnectedComponents.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Py_File/Graph_AdjList.py" beforeDir="false" afterPath="$PROJECT_DIR$/Py_File/Graph_AdjList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Py_File/PhoneCalling_Demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Py_File/PhoneCalling_Demo.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,17 +67,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Py_File/ConnectedComponents.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="14" column="82" lean-forward="true" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="246">
+              <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+              <folding>
+                <element signature="e#39#374#0" />
+                <element signature="e#444#811#0" />
+                <element signature="e#851#989#0" />
+                <element signature="e#1030#1289#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Py_File/Graph_AdjList.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+              <folding>
+                <element signature="e#39#413#0" />
+                <element signature="e#444#811#0" />
+                <element signature="e#453#591#0" />
+                <element signature="e#633#892#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Py_File/Graph_Edgedetection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Py_File/Graph_AdjList.py">
+        <entry file="file://$PROJECT_DIR$/Py_File/PhoneCalling_Demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="228">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -155,19 +181,18 @@
         <option value="$PROJECT_DIR$/Py_File/MQTT_Tester.py" />
         <option value="$PROJECT_DIR$/Py_File/MQTT_Sub.py" />
         <option value="$PROJECT_DIR$/Py_File/MQTT_Pub.py" />
-        <option value="$PROJECT_DIR$/Py_File/PhoneCalling_Demo.py" />
         <option value="$PROJECT_DIR$/Py_File/Socket_Server.py" />
         <option value="$PROJECT_DIR$/Py_File/Socket_Client.py" />
         <option value="$PROJECT_DIR$/Py_File/Graph_Edgedetection.py" />
         <option value="$PROJECT_DIR$/Py_File/Queue.py" />
-        <option value="$PROJECT_DIR$/Py_File/ConnectedComponents.py" />
         <option value="$PROJECT_DIR$/Py_File/Graph_AdjList.py" />
+        <option value="$PROJECT_DIR$/Py_File/ConnectedComponents.py" />
+        <option value="$PROJECT_DIR$/Py_File/PhoneCalling_Demo.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="535" />
-    <option name="y" value="49" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="235" />
     <option name="width" value="986" />
     <option name="height" value="735" />
   </component>
@@ -231,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ConnectedComponents">
+  <component name="RunManager" selected="Python.Graph_AdjList">
     <configuration name="2dArrayDemo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Python" TARGET_NAME="2dArrayDemo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Python" RUN_TARGET_NAME="2dArrayDemo">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -460,8 +485,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ConnectedComponents" />
         <item itemvalue="Python.Graph_AdjList" />
+        <item itemvalue="Python.ConnectedComponents" />
         <item itemvalue="Python.Queue" />
         <item itemvalue="Python.Socket_Client" />
         <item itemvalue="Python.Socket_Server" />
@@ -525,7 +550,7 @@
       <workItem from="1573584092659" duration="1618000" />
       <workItem from="1573920281676" duration="4343000" />
       <workItem from="1574100046079" duration="801000" />
-      <workItem from="1574274110054" duration="7947000" />
+      <workItem from="1574274110054" duration="13876000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1562261198641</created>
@@ -660,18 +685,32 @@
       <option name="project" value="LOCAL" />
       <updated>1571031846865</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="direct">
+      <created>1574617685088</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1574617685089</updated>
+    </task>
+    <task id="LOCAL-00021" summary="direct">
+      <created>1574623015679</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1574623015679</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248109000" />
+    <option name="totallyTimeSpent" value="254038000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="235" y="0" width="986" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.36177105" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32840723" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3294893" />
@@ -680,7 +719,7 @@
       <window_info anchor="bottom" id="Messages" order="4" weight="0.3261944" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3294893" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49924356" visible="true" weight="0.32125205" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49924356" visible="true" weight="0.32608697" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39868203" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="CMake" order="10" weight="0.32784185" />
@@ -845,13 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Py_File/PhoneCalling_Demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CPP_File/Solution_Adj_Squre.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -883,13 +915,6 @@
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Py_File/Graph_Edgedetection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -939,15 +964,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Py_File/ConnectedComponents.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="14" column="82" lean-forward="true" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="246">
+          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+          <folding>
+            <element signature="e#39#374#0" />
+            <element signature="e#444#811#0" />
+            <element signature="e#851#989#0" />
+            <element signature="e#1030#1289#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Py_File/Graph_AdjList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="304">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="e#39#413#0" />
+            <element signature="e#444#811#0" />
+            <element signature="e#453#591#0" />
+            <element signature="e#633#892#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Py_File/Graph_Edgedetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Py_File/PhoneCalling_Demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
