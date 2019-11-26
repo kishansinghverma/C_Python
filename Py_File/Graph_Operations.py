@@ -25,23 +25,58 @@ def doBFS(graph, start):
     bfs=[]
     visited=[False]*len(graph)
     q=queue.Queue()
-    bfs.append(start)
-    for x in graph[start]:
-        q.put(x)
-        bfs.append(x)
+    q.put(start)
 
-    visited[start]=True
+    while(not q.empty()):
+        n=q.get()
+        bfs.append(n)
+
+        for x in graph[n]:
+            if(not visited[x]):
+                q.put(x)
+                visited[x]=True
+
+    return bfs
+
+def doDFS(graph, start):
+    s=[]
+    visited=[False]*len(graph)
+    dfs=[]
+    s.append(start)
+
+    while(len(s)>0):
+        n=s.pop()
+        if(not visited[n]):
+            dfs.append(n)
+            visited[n]=True
+
+        for v in reversed(graph[n]):
+            if(not visited[v]):
+                s.append(v)
+
+    return dfs
+
+def getLevel(graph, mapper, start):
+    visited=[False]*len(graph)
+    q=queue.Queue()
+    q.put(start)
+    level=[0]*len(graph)
+
     while(not q.empty()):
         n=q.get()
         for x in graph[n]:
             if(not visited[x]):
+                level[x]=level[n]+1
                 q.put(x)
-                bfs.append(x)
-        visited[n]=True
-    return bfs
+
+        visited[n]=True;
+
+    print("\nLevels of nodes are:")
+    for i, x in enumerate(level[1:]):
+        print(mapper[i+1],":",x)
 
 def getMappedSearch(bfs, mapper):
-    print("\nBFS Of Given Graph Is:\n(", end="")
+    print("\nMapped Search Of Given Graph Is:\n(", end="")
     for x in bfs[:-1]:
         print(mapper[x], end=", ")
     print(str(mapper[bfs[-1]])+")")
@@ -55,7 +90,7 @@ def getMappedGraph(graph, mapper):
                 print(mapper[y], end=", ")
             print(str(mapper[x[-1]])+")")
 
-edges=[[1,0],[1,3],[3,1],[0,3],[1,2],[0,4],[6,2],[5,6],[7,6],[6,4]]
+edges=[[0,2],[1,6],[2,4],[2,5],[3,5],[4,7],[5,1],[5,3],[5,6],[6,5],[6,7],[7,5]]
 graph, mapper = getGraph(edges)
 
 getMappedGraph(graph, mapper)
@@ -63,3 +98,9 @@ getMappedGraph(graph, mapper)
 bfs=doBFS(graph, 1)
 
 getMappedSearch(bfs, mapper)
+
+dfs=doDFS(graph, 1)
+
+getMappedSearch(dfs, mapper)
+
+getLevel(graph, mapper, 1)
